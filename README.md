@@ -70,9 +70,9 @@ Dataset: [Kaggle – Bank Customer Churn Prediction](https://www.kaggle.com/data
 
 ### 3. Evaluation
 - **Test Set Accuracy**: ~0.87  
-- **ROC AUC**: ~0.99 (excellent probability ranking ability)  
+- **ROC AUC**: ~0.85 (excellent probability ranking ability)  
 - Strong **recall** for churners (82%), ensuring most at-risk customers are detected  
-- Some trade-off with precision (64%), acceptable for churn-prevention use cases
+- Some trade-off with precision (58%), acceptable for churn-prevention use cases
 
 ### 4. Business Integration
 - Predictions exported with:
@@ -103,11 +103,11 @@ Churn vs. retention rates, accuracy, recall, and precision metrics visualized.
 
 | Metric      | Class 0 (Stayed) | Class 1 (Churned) | Overall |
 |-------------|------------------|-------------------|---------|
-| Precision   | 0.88             | 0.64              | —       |
-| Recall      | 0.94             | 0.82              | —       |
-| F1-score    | 0.91             | 0.72              | —       |
-| Accuracy    | —                | —                 | **0.87** |
-| ROC AUC     | —                | —                 | **0.993** |
+| Precision   | 0.88             | 0.67              | —       |
+| Recall      | 0.94             | 0.51              | —       |
+| F1-score    | 0.91             | 0.58              | —       |
+| Accuracy    | —                | —                 | **0.85** |
+| ROC AUC     | —                | —                 | **0.847** |
 
 **Confusion Matrix (Test Set):**
 
