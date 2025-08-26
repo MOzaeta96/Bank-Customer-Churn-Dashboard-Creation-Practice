@@ -13,10 +13,11 @@ The repo demonstrates a **full ML-to-business pipeline**:
 ---
 
 ## Repository Structure
-ank-churn-prediction/
-│
+```
+bank-churn-prediction/
+|
 ├── data/
-│ ├── Churn_Modelling.csv # Raw dataset (if license allows; else link below)
+│ ├── Churn_Modelling.csv # Raw dataset
 │ ├── churn_predictions.csv # Final enriched predictions
 │ ├── test_set_predictions.csv # Test set predictions (for evaluation)
 │
@@ -42,7 +43,7 @@ ank-churn-prediction/
 ├── README.md # This file
 ├── LICENSE # Open-source license (MIT recommended)
 └── .gitignore
-
+```
 
 ---
 
@@ -95,12 +96,6 @@ Churn vs. retention rates, accuracy, recall, and precision metrics visualized.
 - Churn by **SalaryRange**  
 - Churn by **Geography**  
 ![Age & Salary Segments](dashboard/screenshots/age_salary_segments.png)
-
-### 3. Threshold Tuning (Business Control)
-Users can adjust the churn probability threshold (0.3–0.7) to explore:
-- **Lower threshold → higher recall** (catch more churners, with more false positives)  
-- **Higher threshold → higher precision** (fewer false alarms, but may miss churners)  
-![Threshold Tuning](dashboard/screenshots/threshold_tuning.png)
 
 ---
 
