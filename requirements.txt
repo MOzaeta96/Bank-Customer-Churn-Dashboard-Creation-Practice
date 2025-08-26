@@ -1,0 +1,9 @@
+# Python dependencies for Bank Churn Prediction project
+pandas
+numpy
+scikit-learn
+xgboost
+matplotlib
+seaborn
+joblib
+jupyter
