@@ -119,7 +119,7 @@ Churn vs. retention rates, accuracy, recall, and precision metrics visualized.
 
 ---
 
-## 🚀 How to Reproduce
+## How to Reproduce
 1. Clone the repo:
    ```bash
    git clone https://github.com/MOzaeta96/Bank-Customer-Churn-Dashboard-Creation-Practice.git
