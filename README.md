@@ -1,7 +1,8 @@
 # Bank Customer Churn Prediction using XGBoost and Power BI Dashboard
 
 ## Project Overview
-Customer churn is a critical issue for banks and financial institutions: retaining customers is more cost-effective than acquiring new ones.  
+Customer churn, the likelihood a customer will leave a bank, is a critical issue for banks and financial institutions: retaining customers is more cost-effective than acquiring new ones. 
+
 This project applies **machine learning (XGBoost)** to predict churn probability and integrates the results into an **interactive Power BI dashboard** for business stakeholders.  
 
 The repo demonstrates a **full ML-to-business pipeline**:
@@ -37,6 +38,16 @@ bank-churn-prediction/
 ├── README.md # This file
 └── .gitignore
 ```
+
+---
+## Problem Statement
+
+What are the key factors that lead to a client leaving a banking institution?
+
+- Are there financial factors?
+  - Salary, credit score, etc.
+- Is there a specific type of customer?
+  - Products they use, age, etc.
 
 ---
 
@@ -80,16 +91,11 @@ Dataset: [Kaggle – Bank Customer Churn Prediction](https://www.kaggle.com/data
 
 ## Results & Dashboard
 
-### 1. Churn Overview
+### Churn Overview
 Churn vs. retention rates, accuracy, recall, and precision metrics visualized.  
 ![Churn Model](dashboard/screenshots/ChurnModel.png)
 
 ![Churn Whole Dataset](dashboard/screenshots/ChurnWhole.PNG)
-
-### 2. Segmentation
-- Churn by **AgeRange**  
-- Churn by **SalaryRange**  
-- Churn by **Geography**  
 
 ---
 
@@ -110,6 +116,18 @@ Churn vs. retention rates, accuracy, recall, and precision metrics visualized.
 |Actual 0(No) | 7023   | 939    |
 |Actual 1(Yes)| 371    | 1666   |
 
+
+---
+
+## Findings
+
+The following types of clients have the most churn regardless of other factors:
+
+-  Older clients
+-  Women
+-  Clients in Germany
+
+Using these factors, we can try target marketing to appeal to these customers. A combination of researching their preferences, identifying their points of dissatisfaction, and targeted retention programs can help toimprove the churn rate for the bank as a whole.
 
 ---
 
