@@ -26,7 +26,6 @@ bank-churn-prediction/
 │ ├── screenshots/ # Dashboard visuals for README
 │ ├── churn_overview.png
 │ ├── age_salary_segments.png
-│ ├── threshold_tuning.png
 │
 ├── models/
 │ └── xgb_churn_pipeline.joblib # Saved model pipeline
@@ -34,14 +33,8 @@ bank-churn-prediction/
 ├── notebooks/
 │ └── exploration_and_model.ipynb # Full notebook (EDA → model → evaluation)
 │
-├── src/
-│ ├── preprocessing.py # Data cleaning & feature engineering
-│ ├── train_model.py # Model training pipeline
-│ ├── evaluate.py # Test set evaluation
-│
 ├── requirements.txt # Python dependencies
 ├── README.md # This file
-├── LICENSE # Open-source license (MIT recommended)
 └── .gitignore
 ```
 
