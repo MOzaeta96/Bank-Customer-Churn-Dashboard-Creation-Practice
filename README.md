@@ -127,7 +127,7 @@ The following types of clients have the most churn regardless of other factors:
 -  Women
 -  Clients in Germany
 
-Using these factors, we can try target marketing to appeal to these customers. A combination of researching their preferences, identifying their points of dissatisfaction, and targeted retention programs can help toimprove the churn rate for the bank as a whole.
+Using these factors, we can try target marketing to appeal to these customers. A combination of researching their preferences, identifying their points of dissatisfaction, and targeted retention programs can help to improve the churn rate for the bank as a whole.
 
 ---
 
