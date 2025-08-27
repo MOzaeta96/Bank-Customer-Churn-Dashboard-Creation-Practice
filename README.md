@@ -24,8 +24,8 @@ bank-churn-prediction/
 ├── dashboard/
 │ ├── Bank Churn Analysis.pbix # Power BI dashboard file
 │ ├── screenshots/ # Dashboard visuals for README
-│ ├── churn_overview.png
-│ ├── age_salary_segments.png
+│ ├── Churn Model.png
+│ ├── Churn Whole.png
 │
 ├── models/
 │ └── xgb_churn_pipeline.joblib # Saved model pipeline
@@ -82,13 +82,13 @@ Dataset: [Kaggle – Bank Customer Churn Prediction](https://www.kaggle.com/data
 
 ### 1. Churn Overview
 Churn vs. retention rates, accuracy, recall, and precision metrics visualized.  
-![Churn Overview](dashboard/screenshots/churn_overview.png)
+![Churn Model](dashboard/screenshots/Churn Model.png)
+![Churn Whole Dataset](dashboard/screenshots/Churn Whole.png)
 
 ### 2. Segmentation
 - Churn by **AgeRange**  
 - Churn by **SalaryRange**  
 - Churn by **Geography**  
-![Age & Salary Segments](dashboard/screenshots/age_salary_segments.png)
 
 ---
 
