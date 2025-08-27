@@ -84,7 +84,7 @@ Dataset: [Kaggle – Bank Customer Churn Prediction](https://www.kaggle.com/data
 Churn vs. retention rates, accuracy, recall, and precision metrics visualized.  
 ![Churn Model](dashboard/screenshots/ChurnModel.png)
 
-![Churn Whole Dataset](dashboard/screenshots/ChurnWhole.png)
+![Churn Whole Dataset](dashboard/screenshots/ChurnWhole.PNG)
 
 ### 2. Segmentation
 - Churn by **AgeRange**  
