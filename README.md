@@ -20,19 +20,20 @@ bank-churn-prediction/
 ├── data/
 │ ├── Churn_Modelling.csv # Raw dataset
 │ ├── churn_predictions.csv # Final enriched predictions
-│ ├── test_set_predictions.csv # Test set predictions (for evaluation)
+│ └──test_set_predictions.csv # Test set predictions (for evaluation)
 │
 ├── dashboard/
 │ ├── Bank Churn Analysis.pbix # Power BI dashboard file
 │ ├── screenshots/ # Dashboard visuals for README
 │ ├── ChurnModel.png
-│ ├── ChurnWhole.png
+│ └── ChurnWhole.png
 │
 ├── models/
 │ └── xgb_churn_pipeline.joblib # Saved model pipeline
 │
 ├── notebooks/
-│ └── exploration_and_model.ipynb # Full notebook (EDA → model → evaluation)
+│ ├── Data_Science_Report_Bank_Customer_Churn_Prediction.ipynb # Full, in-depth report
+| └── exploration_and_model.ipynb # Full notebook (EDA → model → evaluation)
 │
 ├── requirements.txt # Python dependencies
 ├── README.md # This file
