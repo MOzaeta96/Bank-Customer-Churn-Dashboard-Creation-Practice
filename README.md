@@ -25,8 +25,8 @@ bank-churn-prediction/
 ├── dashboard/
 │ ├── Bank Churn Analysis.pbix # Power BI dashboard file
 │ ├── screenshots/ # Dashboard visuals for README
-│ ├── ChurnModel.png
-│ └── ChurnWhole.png
+│   ├── ChurnModel.png
+│   └── ChurnWhole.png
 │
 ├── models/
 │ └── xgb_churn_pipeline.joblib # Saved model pipeline
